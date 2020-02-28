@@ -1,7 +1,7 @@
-﻿<Application x:Class="VDRChanEd.NETCore.App"
+﻿<Application x:Class="VDRChanEdCore.NETCore.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:VDRChanEd.NETCore"
+             xmlns:local="clr-namespace:VDRChanEdCore.NETCore"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
