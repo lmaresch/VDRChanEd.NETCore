@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using VDRChanEd.NETCore;
 
 namespace VDRChanEdCore.NETCore
 {
@@ -20,8 +21,11 @@ namespace VDRChanEdCore.NETCore
     /// </summary>
     public partial class MainWindow : Window
     {
+        private MainViewModel mvm;
         public MainWindow()
         {
+            this.mvm = new MainViewModel();
+            this.DataContext = this.mvm;
             InitializeComponent();
         }
     }
